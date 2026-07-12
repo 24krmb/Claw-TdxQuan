@@ -1,0 +1,82 @@
+# Worktrees
+.worktrees/
+.qwenpaw/worktrees/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.idea/
+.vscode/
+.trae/
+.opencode/
+.qoder/
+.cursor/
+.codex/
+*.swp
+*.swo
+*~
+
+# Python
+*$py.class
+uv.lock
+venv/
+.venv/
+providers.json
+
+# Logs
+logs/
+*.log
+
+# Hypothesis test cache
+.hypothesis/
+src/.hypothesis/
+
+# Data cache
+*.csv
+*.xlsx
+
+# Build cache
+.cache/  # Includes conda_unpack_wheels/ for Windows packaging workaround
+
+# 其他
+*.egg-info/
+dist/
+build/
+Backup/
+Other/
+openclaw/
+qwenpaw/
+GitHub.md
+design.md
+code.md
+skills-doc.md
+skills-doc-bf.md
+skills.json
+
+# CLAUDE
+CLAUDE.md
+.claude
+
+# Local File
+/localfile/
+local-docs/
+
+# E2E test artifacts
+e2e/reports/
+e2e/data/
+e2e/.pytest_cache/
+e2e/__pycache__/
+
+# knowledge-base related
+graphify-out/
+local-docs/
+docs-site/
+
+# 测试期间 暂时不推送的
+24K-Claw-Jzt/
+24K-Claw-Ptrade/
+Prompt_Install_Skill/
+24K-Claw-AKQuant/

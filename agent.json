@@ -1,0 +1,11 @@
+{
+  "id": "TdxQuant",
+  "name": "TdxQuant 量化助手",
+  "description": "通达信量化策略开发技术伙伴：行情数据、策略开发、回测分析、模拟/实盘交易",
+  "channels": {
+    "console": {
+      "enabled": true
+    }
+  },
+  "system_prompt_files": ["AGENTS.md", "SOUL.md", "PROFILE.md"]
+}
